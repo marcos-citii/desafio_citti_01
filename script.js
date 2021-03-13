@@ -1,15 +1,16 @@
 // crie a lógica do seu formulário aqui
 
-
-let listFoods = new Array();
+let listFoods = [];
 
 function createObject(cod, names, namesEnglish, scientificName, group) {
     return null;
 }
-
-
-function add() {
+function add(value) {
+    listFoods.push(value);
+    console.log(value);
+    console.log(listFoods);
 }
 
-function list(){    
+function list() {
+    console.log(listFoods);
 }
