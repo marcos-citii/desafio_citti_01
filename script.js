@@ -12,5 +12,5 @@ function add(value) {
 }
 
 function list() {
-    console.log(listFoods);
+    
 }
